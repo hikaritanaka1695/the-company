@@ -45,7 +45,7 @@
                 echo "User not Found";
             }
         }
-
+        //this is login
         public function logout() {
             session_start();
             session_unset();
